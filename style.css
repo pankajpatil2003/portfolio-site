@@ -1,1 +1,54 @@
-body { background-color: blue; }
+paragraph {
+    font-family:Arial,  sans-serif;
+    background-colour : white;
+
+}
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color:white;
+}
+
+header {
+    background:black;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.products {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.product-card {
+    background: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
